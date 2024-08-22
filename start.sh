@@ -10,6 +10,10 @@ export NEZHA_KEY=${NEZHA_KEY:-''}
 export NEZHA_PORT=${NEZHA_PORT:-'443'}
 export NEZHA_TLS=${NEZHA_TLS:-'1'}  # 1启用tls,0关闭tls
 
+# 自定义哪吒探针下载，也可默认0.18.2之前旧版本
+export NEZ_AMD_URL=${NEZ_AMD_URL:-'https://raw.githubusercontent.com/kahunama/myfile/main/nezha/nezha-agent'}
+export NEZ_ARM_URL=${NEZ_ARM_URL:-'https://raw.githubusercontent.com/kahunama/myfile/main/nezha/nezha-agent(arm)'}
+
 # 节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vms'}  # 节点类型,可选vls,vms,rel,hy2,tuic
 #export UUID="9e0da28d-ee9c-4fef-95a4-df2d0335e649"  # 默认随机，去掉#可设置固定UUID
