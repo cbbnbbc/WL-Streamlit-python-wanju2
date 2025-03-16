@@ -1,8 +1,8 @@
 #!/bin/bash
  
 # 隧道相关设置（去掉下面变量前面#启用，否则使用临时隧道）
-# export TOK=${TOK:-'xccxx'}  # token或json,可以直接复制全部
-# export ARGO_DOMAIN=${ARGO_DOMAIN:-'xxx'} # 隧道域名
+ export TOK=${TOK:-'eyJhIjoiMGMzMmRiMWFmMzkzYTZiMThhZGY0YjRhYjZkNmQyYTQiLCJ0IjoiNjk1N2U5ZjgtOTdiNS00MDFhLWEyYjUtZjUxMjAzYTBlNDNlIiwicyI6Ik5qYzNOMlJtTWpRdE5qQTRPUzAwT1RZNExUZzFPV1V0TkdNek16RTNZbUV6WmpneiJ9'}  # token或json,可以直接复制全部
+ export ARGO_DOMAIN=${ARGO_DOMAIN:-'s.toucan.x10.mx'} # 隧道域名
 
 # 哪吒相关设置
 export NEZHA_SERVER=${NEZHA_SERVER:-''}
@@ -16,7 +16,7 @@ export NEZ_ARM_URL=${NEZ_ARM_URL:-'https://github.com/kahunama/myfile/releases/d
 
 # 节点相关设置(节点可在worlds文件里list.log查看)
 export TMP_ARGO=${TMP_ARGO:-'vls'}  # 节点类型,可选vls,vms,rel,hy2,tuic
-#export UUID="9e0da28d-ee9c-4fef-95a4-df2d0335e649"  # 默认随机，去掉#可设置固定UUID
+export UUID="9607efd1-2e8b-4976-aba9-cc79e5d80fb3"  # 默认随机，去掉#可设置固定UUID
 export CF_IP=${CF_IP:-'ip.sb'}  # cf优选域名或ip
 export SUB_NAME=${SUB_NAME:-'Streamit.io'} # 节点名称
 
